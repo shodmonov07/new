@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamoliddin Shodmonov's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jamoliddin Shodmonov's Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Bosh sahifa</a></li>
+            <li><a href="#">Haqida</a></li>
+            <li><a href="#">Bloglar</a></li>
+            <li><a href="#">Aloqa</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Haqida</h2>
+            <p> 
+                 Men Jmaoliddin Shodmonov 2007-yil 10-noyabr sanasida Samarqand viloyatida tug'ilganman va <br>
+                 uch yoshimda Toshkenga oilam bilan yashash uchun ko'chib kelganman.<br>
+                 Mana 14 yildirki hali ham shu yerda yashab kelyapman. Va hozirda bu yerda Web Dasturlash sohasida ta'lim olyapman.<br>
+            </p>
+            <p>Salom! Men Jamoliddin Shodmonov. Men Python, PostgreSQL, HTML va CSS tillarini bilaman va bo'lajak backend dasturchiman.</p>
+            <img src="images/self.png" alt="Jamoliddin Shodmonov" width="200" height="200">
+            <p>Instagram: <a href="https://instagram.com/shod_mo_nov_05">Jamoliddin Shodmonov</a></p>
+            <p>Telegram: <a href="https://t.me/user_101107">Jamoliddin Shodmonov</a></p>
+        </section>
+        <section id="blogs">
+            <h2>Bloglar</h2>
+            <article>
+                <h3>Birinchi Blog Post</h3>
+                <p>Bu mening birinchi blog postim. Bu yerda ko'plab foydali ma'lumotlarni topishingiz mumkin.</p>
+            </article>
+            <article>
+                <h3>Ikkinchi Blog Post</h3>
+                <p>Bu mening ikkinchi blog postim. Bu yerda ko'plab foydali ma'lumotlarni topishingiz mumkin.</p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Aloqa</h2>
+            <form method="post" action="">
+                <label for="username">Foydalanuvchi nomi:</label>
+                <input type="text" id="username" name="username" placeholder="Foydalanuvchi nomi" required>
+                
+                <label for="password">Parol:</label>
+                <input type="password" id="password" name="password" placeholder="Parol" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                <label for="message">Xabar:</label>
+                <textarea id="message" name="message" placeholder="Xabaringizni yozing" required></textarea>
+                
+                <button type="submit">Yuborish</button>
+                <button type="button" onclick="alert('Tugma bosildi!')">Click</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jamoliddin Shodmonov</p>
+    </footer>
+</body>
+</html>

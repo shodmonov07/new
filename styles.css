@@ -1,0 +1,77 @@
+body {
+    background-image: url('https://example.com/backend-logo.png');
+    background-size: cover;
+    background-position: center;
+    color: #000; /* Matn rangini qora qilish */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.8); /* Sarlavha orqasidagi yengil fon */
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8); /* Navigatsiya orqasidagi yengil fon */
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.8); /* Asosiy kontent orqasidagi yengil fon */
+}
+
+form {
+    background: rgba(255, 255, 255, 1); /* Forma orqasidagi oq fon */
+    padding: 1em;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+    color: #000;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.8);
+}
